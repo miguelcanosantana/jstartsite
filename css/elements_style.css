@@ -1,0 +1,93 @@
+/* ______________________________Fonts______________________________ */
+
+/* font-family: 'Ubuntu', sans-serif; */
+/* font-family: 'Ubuntu Mono', monospace; */
+
+/* ______________________________Body______________________________ */
+
+body { background-color: #212228;
+       color: rgb(233, 233, 233);
+       font-family: 'Ubuntu', sans-serif;
+}
+
+/* ______________________________NavBar______________________________ */
+
+.navbar { box-shadow: 0px 18px 50px 2px rgba(0,0,0,0.75);
+
+}
+
+.navbar-nav { text-align: center;
+}
+
+.nav-link { font-size: 25px;
+}
+
+.fa-compass { font-size: 50px;
+}
+
+.navbar-toggler { background-color: #E7339F;
+                  border-radius: 50px;
+                  transition: box-shadow 0.15s;
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover, .navbar-toggler:active { outline-style: hidden;
+                                                                       outline-width: 0px;
+                                                                       box-shadow: 0 0 20px 2px #E7339F;
+}
+
+/* ______________________________Hero Section______________________________ */
+
+#containsHero { text-align: center;
+}
+
+#startJumbo { background-color: #00000000;
+}
+
+#homeCard { background-color: #343A40; 
+            color: #00C4A7;
+            box-shadow: 0px 18px 38px -8px rgba(0,0,0,0.8);
+}
+
+#big-github-icon { font-size: 50px;
+}
+
+#photo-profile { margin-top: 20px;
+                 margin-bottom: 20px;
+                 border-radius: 100px;
+                 box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+
+@media (max-width: 992px) {
+  #homeCard { margin-bottom: 100px;
+  }
+
+  #containsHero { margin-top: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  #homeCard {margin-top: 90px;}
+
+  #containsHero { margin-top: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #homeCard {margin-top: 165px;}
+
+  #containsHero { margin-top: 8px;
+  }
+}
+
+/* ______________________________Cards______________________________ */
+
+.btn-regular-card { background-color: #E7339F;
+                    border-radius: 50px;
+                    color: rgb(233, 233, 233);
+                    transition: box-shadow 0.15s;
+}
+
+.btn-regular-card:hover { box-shadow: 0 0 20px 2px #E7339F;
+                          color: rgb(233, 233, 233);
+                          text-decoration: none;
+}
