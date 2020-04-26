@@ -3,6 +3,17 @@
 /* font-family: 'Ubuntu', sans-serif; */
 /* font-family: 'Ubuntu Mono', monospace; */
 
+/* ______________________________microlight.js______________________________ */
+
+.microlight {
+  font-family: 'Ubuntu Mono', monospace;
+  white-space : pre;
+  text-align: left;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 /* ______________________________Body______________________________ */
 
 body { background-color: #212228;
@@ -79,6 +90,31 @@ body { background-color: #212228;
   }
 }
 
+/* ______________________________Start Card (of every code page)______________________________ */
+
+.containsStartCard { text-align: center;
+
+}
+
+.startCard { background-color: #343A40; 
+             color: #00C4A7;
+             box-shadow: 0px 18px 38px -8px rgba(0,0,0,0.8);
+             margin-top: 60px;
+}
+
+.btn-lang-card { background-color: #ED6E59;
+                 border-radius: 50px;
+                 color: rgb(233, 233, 233);
+                 transition: box-shadow 0.15s;
+}
+
+.btn-lang-card:hover { box-shadow: 0 0 20px 2px #ED6E59;
+                       color: rgb(233, 233, 233);
+}
+
+#javascriptCard { color: #F0DB4F;
+}
+
 /* ______________________________Cards______________________________ */
 
 .btn-regular-card { background-color: #E7339F;
@@ -89,5 +125,27 @@ body { background-color: #212228;
 
 .btn-regular-card:hover { box-shadow: 0 0 20px 2px #E7339F;
                           color: rgb(233, 233, 233);
-                          text-decoration: none;
 }
+
+.card-header { background-color: #000000;
+}
+
+.fa-code { font-size: 25px;
+           margin-top: 10px;
+}
+
+.exerciseNumber { font-size: 25px;
+}
+
+.code-contain { background-color: #000000;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border-radius: 5px;
+                transition: box-shadow 0.15s;      
+}
+
+.code-contain:hover { box-shadow: 0 0 20px 2px #E7339F; 
+                      
+}
+
+
