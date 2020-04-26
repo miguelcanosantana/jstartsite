@@ -144,8 +144,17 @@ body { background-color: #212228;
                 transition: box-shadow 0.15s;      
 }
 
-.code-contain:hover { box-shadow: 0 0 20px 2px #E7339F; 
-                      
+.code-contain:hover { box-shadow: 0 0 20px 2px #E7339F;
 }
+
+/* ______________________________Types of Code______________________________ */
+
+.typeOfCode-JavaScript { color: #F0DB4F;
+}
+
+.typeOfCode-Html5 { color: rgb(253, 146, 114);
+}
+
+
 
 
