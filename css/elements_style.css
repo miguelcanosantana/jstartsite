@@ -130,6 +130,12 @@ body { background-color: #212228;
 .card-header { background-color: #000000;
 }
 
+.card-header-start { border-radius: 5px 5px 0px 0px;
+}
+
+.card-header-end { border-radius: 0px 0px 5px 5px;
+}
+
 .fa-code { font-size: 25px;
            margin-top: 10px;
 }
