@@ -147,8 +147,19 @@ body { background-color: #212228;
                 margin-top: 20px;
                 margin-bottom: 20px;
                 border-radius: 5px;
-                transition: box-shadow 0.15s;      
+                transition: box-shadow 0.15s;     
 }
+
+/* Fix Responsive on code-boxes */
+
+@media (max-width: 576px) {
+  .code-contain { max-width: 85vw;
+  }
+  .microlight { max-width: 85vw;
+    overflow-x: auto;
+  }
+}
+
 
 .code-contain:hover { box-shadow: 0 0 20px 2px #E7339F;
 }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Triangle Button</title>
+</head>
+<body>
+
+  <button onclick="triangleArea()"> Calculate Triangle Area</button>
+
+  <style>
+    body { background-color: rgb(0, 0, 0);
+           color: beige;
+    }
+
+  </style>
+
+  <script>
+
+    function triangleArea() {
+
+      //Float is used for using numbers
+      var base = parseFloat (prompt("Enter the base"));
+      var height = parseFloat (prompt("Enter the height"));
+
+      var area = base * height / 2;
+
+      alert("The area is: " + area + " u²");      
+    }
+
+  </script>
+  
+</body>
+</html>
