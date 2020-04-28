@@ -147,6 +147,13 @@ body { background-color: #212228;
 .code-contain:hover { box-shadow: 0 0 20px 2px #E7339F;
 }
 
+.img-exercise { border-radius: 5px;
+}
+
+.img-exercise:hover { box-shadow: 0 0 20px 2px #E7339F;
+                      transition: box-shadow 0.15s;
+}
+
 /* ______________________________Types of Code______________________________ */
 
 .typeOfCode-JavaScript { color: #F0DB4F;
